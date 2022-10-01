@@ -56,6 +56,7 @@ body {
 button {
   background-color: transparent;
   border: none;  
+  cursor: pointer;
 }
 
 button svg {
@@ -66,8 +67,7 @@ button svg {
   display: flex;
   gap: 2rem;
     
-  filter: var(--shadow);
-  cursor: pointer;
+  filter: var(--shadow);  
 }
 
 .controls-btn:active > svg path {
@@ -100,6 +100,7 @@ button svg {
   body {
     overflow: hidden;
   }
+  
   .page {
     gap: 8rem;
     padding: 5rem;
