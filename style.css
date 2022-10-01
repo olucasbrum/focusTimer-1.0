@@ -46,18 +46,16 @@ body {
 
 #timer {
   display: flex;
-  /* font-size: 12.67rem; */
+  
   font-size: clamp(9rem, 10rem + 10vw, 12.67rem);
 
   color: var(--timer-color);
-
   filter: var(--shadow);
 }
 
 button {
   background-color: transparent;
-  border: none;
-  cursor: pointer;
+  border: none;  
 }
 
 button svg {
@@ -67,8 +65,9 @@ button svg {
 #controls {
   display: flex;
   gap: 2rem;
-
+    
   filter: var(--shadow);
+  cursor: pointer;
 }
 
 .controls-btn:active > svg path {
@@ -80,8 +79,10 @@ button svg {
   grid-template-areas:
     'A B'
     'C D';
-  gap: 3.2rem;
+  gap: 3.2rem; 
+}
 
+#wrapper-cards svg {
   cursor: pointer;
 }
 
