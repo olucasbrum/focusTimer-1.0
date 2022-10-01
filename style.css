@@ -84,6 +84,7 @@ button svg {
 
 #wrapper-cards svg {
   cursor: pointer;
+  filter: var(--shadow);
 }
 
 .card-active > svg path:nth-child(1) {
